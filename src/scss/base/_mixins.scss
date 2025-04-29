@@ -1,0 +1,22 @@
+@use 'variables' as v;
+
+@mixin telefono{
+    @media (min-width: v.$telefono){
+        @content; //Tiene que haber contendio en el .scss para que se refleje en el .css final
+    }
+}
+@mixin tablets{
+    @media (min-width: v.$tablets){
+        @content; 
+    }
+}
+@mixin desktop{
+    @media (min-width: v.$desktop){
+        @content; 
+    }
+}
+@mixin desktopXL{
+    @media (min-width: v.$desktopXL){
+        @content; 
+    }
+}
