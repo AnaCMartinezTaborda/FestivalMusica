@@ -1,0 +1,19 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+@use 'sass:color';
+
+.video {
+  position: relative; // El atricuto padre siempre debe ser el relativo, ya que va a ser el elemeto estatico
+  .overlay {
+    position: absolute;
+    background: linear-gradient(
+      270deg,
+      rgba(v.$morado, 60%),
+      rgba(color.adjust(v.$morado,$lightness:-20%), 90%)
+    );
+    inset: 0;
+  }
+  video {
+    
+  }
+}

@@ -1,12 +1,12 @@
 @use 'variables' as v;
 
-@mixin telefono{
-    @media (min-width: v.$telefono){
+@mixin phone{
+    @media (min-width: v.$phone){
         @content; //Tiene que haber contendio en el .scss para que se refleje en el .css final
     }
 }
-@mixin tablets{
-    @media (min-width: v.$tablets){
+@mixin tablet{
+    @media (min-width: v.$tablet){
         @content; 
     }
 }
