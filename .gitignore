@@ -1,0 +1,18 @@
+# Dependencias de Node
+node_modules/
+
+# Carpeta generada por Gulp
+build/
+dist/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editores
+.vscode/
+.idea/
