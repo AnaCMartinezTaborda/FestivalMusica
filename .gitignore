@@ -1,9 +1,8 @@
-# Dependencias de Node
+# Dependencias
 node_modules/
 
 # Carpeta generada por Gulp
 build/
-dist/
 
 # Archivos temporales
 *.log
